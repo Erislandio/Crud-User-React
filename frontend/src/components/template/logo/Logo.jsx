@@ -6,7 +6,7 @@ class Logo extends Component {
     render() {
         return (
             <aside className="logo">
-                
+                Logo
             </aside>
         );
     }

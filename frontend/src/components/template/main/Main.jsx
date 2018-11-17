@@ -9,7 +9,7 @@ class Main extends Component {
             <React.Fragment>
                 <Header />
                 <main className="content">
-
+                    Main
                 </main>
             </React.Fragment>
         );
