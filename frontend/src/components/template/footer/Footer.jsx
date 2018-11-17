@@ -6,7 +6,13 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                rodap[e]
+                <span>
+                    Desenvolvido com 
+                    <i className="fa fa-heart text-danger"></i>
+                    por <strong>
+                        Erislandio Soares
+                    </strong>
+                </span>
             </footer >
         );
     }
