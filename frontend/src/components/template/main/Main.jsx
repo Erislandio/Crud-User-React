@@ -8,8 +8,10 @@ class Main extends Component {
         return (
             <React.Fragment>
                 <Header {...this.props}/>
-                <main className="content">
-                    Main
+                <main className="content container-fluid">
+                    <div className="p-3 mt-3">
+                        {this.props.children}
+                    </div>
                 </main>
             </React.Fragment>
         );

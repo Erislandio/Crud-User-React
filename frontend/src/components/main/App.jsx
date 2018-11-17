@@ -6,8 +6,8 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Footer from '../template/footer/Footer';
 import Nav from '../template/nav/Nav';
-import Main from '../template/main/Main'
 import Logo from '../template/logo/Logo';
+import Home from '../home/Home';
 
 class App extends Component {
     render() {
@@ -15,7 +15,7 @@ class App extends Component {
             <div className="app">
                 <Logo />
                 <Nav />
-                <Main icon='home' title="Início" />
+                <Home />
                 <Footer />
             </div>
         );
