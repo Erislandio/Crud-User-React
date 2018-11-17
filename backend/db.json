@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Erislandio soares",
+            "email": "erislandio.soares@gmail.com",
+            "age": 23,
+            "tel": "(11) 942676399"
+        },
+        {
+            "id": 2,
+            "name": "Jéssica Rodrigues",
+            "email": "jessica.email@gmail.com",
+            "age": 18,
+            "tel": "(xx) x42676399"
+        }
+    ]
+}
