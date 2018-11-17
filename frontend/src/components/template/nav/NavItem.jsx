@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
 
 class NavItem extends Component {
     render() {
         return (
-           <a href={this.props.link} >
+           <Link to={this.props.link} >
                 <i className={`fa fa-${this.props.icon}`}>
                 </i>
                 {this.props.title}
-           </a> 
+           </Link> 
         );
     }
 }
