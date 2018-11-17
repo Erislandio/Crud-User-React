@@ -1,4 +1,5 @@
 import './Logo.css'
+import logo from '../../../assets/img/logo.png'
 
 import React, { Component } from 'react';
 
@@ -6,7 +7,7 @@ class Logo extends Component {
     render() {
         return (
             <aside className="logo">
-                Logo
+                <img src={logo} alt="logo" />
             </aside>
         );
     }
