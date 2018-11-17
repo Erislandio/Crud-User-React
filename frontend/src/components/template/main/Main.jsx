@@ -7,7 +7,7 @@ class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <Header />
+                <Header {...this.props}/>
                 <main className="content">
                     Main
                 </main>

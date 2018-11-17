@@ -1,5 +1,8 @@
 import './App.css'
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 import Footer from '../template/footer/Footer';
 import Nav from '../template/nav/Nav';
@@ -12,7 +15,7 @@ class App extends Component {
             <div className="app">
                 <Logo />
                 <Nav />
-                <Main />
+                <Main icon='home' title="Início" />
                 <Footer />
             </div>
         );
